@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    background-color:#1b3154;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color:#000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: #fff;
+}
+
+header > h2 {
+    font-family: 'Sacramento';
+}
+
+img {
+    border-radius: 50%;
+    width: 5%;
+}
+
+
+.main-container {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+
+    
+}
+
+.details {
+    background-color:black;
+    color: #fff;
+    border: 1px #E5E4E2;
+    border-radius: 10px;
+    min-width: 90vh;
+    min-height: 40vh;
+    padding: 10px 20px 0px 20px;
+}
+
+.history {
+    color: #fff;
+    border: 1px #E5E4E2;
+    border-radius: 10px;
+    min-width: 70vh;
+    min-height: 40vh;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    background-color: black;
+
+}
+
+.bal {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bal > p {
+    border-radius: 50%;
+    border: solid;
+    padding: 0px 3px 7px 3px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.details > p {
+    padding-top: 30px;
+}
+
+.details > .username {
+    margin-bottom: 15px;
+}
+
+.details > .acct-num {
+    margin-top: 50px;
+}
+
+section {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    color: #fff;
+}
+.inp {
+    min-height: 25vh;
+    min-width: 35vh;
+    width: 40px;
+    margin-top: 5px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.inp > h4, input, button {
+    margin: 10px 0px;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    padding-left: 6px;
+}
+
+button {
+    width: 30%;
+    height: 23px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1b3154;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .details {
+        background-color:black;
+        color: #fff;
+        border: 1px #E5E4E2;
+        border-radius: 10px;
+        min-width: 70vh;
+        min-height: 30vh;
+        padding: 5px 5px 10px 5px;
+    }
+    
+    .history {
+        color: #fff;
+        border: 1px #E5E4E2;
+        border-radius: 10px;
+        min-width: 50vh;
+        min-height: 30vh;
+        text-align: center;
+        padding: 10px 20px 0px 20px;
+        background-color: black;
+    
+    }
+    
+  }
