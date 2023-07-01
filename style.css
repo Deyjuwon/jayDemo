@@ -69,6 +69,7 @@ img {
 
 }
 
+
 .bal {
     display: flex;
     justify-content: space-between;
@@ -94,6 +95,8 @@ img {
 
 .details > .acct-num {
     margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
 }
 
 section {
@@ -139,6 +142,10 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+    header {
+        margin-top: auto;
+    }
+
     .details {
         background-color:black;
         color: #fff;
